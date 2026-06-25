@@ -1,0 +1,142 @@
+# Z9D-QAI-CSS-Cyber-Secure-Service
+Z9D CSS Cyber-Secure-Service 5.0 Free Edition
+*****************************************************************************************
+# 📘 README – Z9D•QAI Cyber Secure Service (CSS)  
+*** Versionen: 5.1 / 5.2 / 6.0 ***  
+*** Autor: Z9D / Zoran Ljubić *** 
+*** Plattform: Windows 10 / 11 ** 
+***** Typ: Lokales Z9D•QAI-Security‑Monitoring&Threat‑Analysis‑System *****
+
+🔹 1. Überblick
+
+Der **Z9D•QAI Cyber Secure Service (CSS)** ist ein lokales Sicherheits‑ und Überwachungssystem für Windows.  
+Es analysiert in Echtzeit:
+
+- laufende Prozesse  
+- Netzwerkverbindungen  
+- Systemereignisse  
+- Defender‑Status  
+- (ab Version 6.0) Updates, Treiber, Netzwerk‑Umgebung  
+
+CSS arbeitet **komplett lokal**, ohne Cloud, ohne Telemetrie und ohne Installation.  
+Es kann verdächtige Prozesse erkennen, Netzwerkangriffe sichtbar machen und IP‑Adressen blockieren.
+
+🔹 2. Funktionsumfang (alle Versionen)
+
+Alle Versionen enthalten:
+
+- Echtzeit‑Überwachung von Prozessen  
+- Netzwerk‑Monitoring mit Remote‑IP‑Analyse  
+- Owner‑Erkennung (Azure, AWS, Google, Cloudflare, Meta, LAN, Localhost)  
+- ThreatScore‑Berechnung  
+- Firewall‑Blockierung einzelner IPs  
+- Manuelles Killen von Prozessen  
+- Log‑System  
+- KI‑Router (Python, GGUF, Z9D‑Engine oder manuell)  
+- Z9D‑Icon‑Unterstützung (bei Verknüpfungen)
+
+🔹 3. Unterschiede der Versionen
+
+### "Version 5.1" ###
+- Stabile Basisversion  
+- Ruhiger ThreatScore  
+- Keine Popups, keine akustischen Warnungen  
+- Ideal für Präsentationen und Low‑Noise‑Monitoring
+
+### "Version 5.2" ###
+- Erweiterte Netzwerk‑Owner‑Erkennung  
+- Popup‑Warnungen + akustische Signale  
+- Sensiblere ThreatScore‑Logik  
+- Verbesserte UI‑Rückmeldungen
+
+### "Version 6.0" ###
+- Erweiterte Sicherheitsmodule:  
+  - Router‑/ARP‑/MITM‑Erkennung  
+  - Update‑Analyse (Supply‑Chain‑Angriffe)  
+  - Treiber‑Heuristik (Firmware‑Risiken)  
+  - Zero‑Day‑Verhaltensanalyse  
+- Auto‑Block‑Modus  
+- Modernisierte UI  
+- ThreatScore 2.0  
+- Stabiler Timer‑Loop  
+- Optionaler KI‑Modus mit Z9D‑Engine
+*********************************************************************
+🔹 4. Installation:
+
+CSS benötigt **keine Installation**.  
+Es kann direkt ausgeführt werden.
+
+Optional kann ein Installer‑Script verwendet werden, das:
+
+- die Dateien nach `C:\Program Files\Z9D-CSS\` kopiert  
+- eine Desktop‑Verknüpfung mit Z9D‑Icon erstellt  
+- Schreibschutz setzt  
+*********************************************************************
+🔹 5. Starten des Programms
+
+### Direktstart:
+Doppelklick auf die Datei:
+
+z9d_cyber_secure_service_vX_X_css.ps1  
+oder (Ihre Version 5.1 - 5.2 - 6.0 direkte Datei-Ausführung - in eigenen Ordner kopieren)
+
+Falls PowerShell blockiert:
+
+Rechtsklick → Mit PowerShell ausführen → (als Administrator ausführen)-optional
+
+oder:
+Set-ExecutionPolicy Bypass -Scope Process
+
+🔹 6. Bedienung
+
+### Prozessliste:
+Zeigt CPU‑Last, Handles, PID und Name.  
+Verdächtige Prozesse können beendet werden.
+
+### Netzwerkliste:
+Zeigt Remote‑IP, Port‑Anzahl, Verbindungsstatus und Owner.  
+Unbekannte oder verdächtige IPs können blockiert werden.
+
+### ThreatScore:
+Zeigt den aktuellen Bedrohungsgrad.  
+Je höher der Score, desto mehr Sensoren haben angeschlagen.
+
+### Auto‑Block (ab v6.0):
+Aktiviert automatische Firewall‑Regeln bei verdächtigen Verbindungen.
+
+### KI‑Modus:
+Erlaubt Analyse durch externe KI‑Modelle (optional) mit Z9D-Engine.
+
+🔹 7. Dateien im Paket;
+Je nach Version können folgende Dateien enthalten sein:
+
+- `z9d_cyber_secure_service_vX_X_css.ps1` → Hauptprogramm  
+- `Z9D_logo.ico` → Icon für Verknüpfungen  
+- `Z9D_Engine.exe` → KI‑Engine (nur v6.0)optional  
+- `README.txt` → Diese Datei  
+- `Installer.ps1` → Optionaler Installer  
+
+🔹 8. Sicherheitshinweise
+
+- CSS arbeitet lokal und verändert keine Systemdateien.  
+- Schreibschutz kann gesetzt werden, um Manipulation zu verhindern.  
+- Firewall‑Regeln werden nur gesetzt, wenn der Benutzer es auslöst oder Auto‑Block aktiv ist.  
+- CSS ersetzt kein professionelles EDR‑System, bietet aber starke lokale Heuristik.
+
+🔹 **9. Support / Kontakt**
+
+Für Fragen, Erweiterungen oder neue Versionen:  
+"Z9D•QAI _ Dr.MaS.Zoran Ljubić - Hard/Bregenz Österreich - Doboj RS - Zaječar SRBIJA"
+e-mail: zoranljubic\gmx.net 
+
+# ✔ **Diese README ist für alle Versionen identisch nutzbar.**
+******************************************************************************************
+📌    Haftungsausschluss / Keine Garantie oder Gewährleistungen: 
+Der Anbieter Z9D•QAI übernimmt keine Garantie oder Gewährleistung für Schäden, Fehlfunktionen oder Beeinträchtigungen, auch die durch Hackerangriffe, Schadsoftware, unerwünschte Software, externe Entwickler, Manipulationen oder sonstige Eingriffe Dritter entstehen. Der Auftragsgeber ist verantwortlich für die Sicherheit seiner eigenen IT‑Infrastruktur, einschließlich Betriebssystem, Netzwerk, Benutzerkonten und physischem Zugriff. Der Anbieter Z9D•QAI haftet nicht für bestehende und neue oder zukünftige Angriffsmethoden, Softwareentwicklungen oder Sicherheitslücken, die außerhalb seines Einflussbereichs liegen.
+Haftungsausschluss – Trainingszeiten & Erstellungszeiten: 
+Trainings‑, Entwicklungs‑ und Erstellungszeiten können ausschließlich gemäß der aktuellen Auftragslage, Systemauslastung und der technischen Trainingsgeschwindigkeit des Z9D•QAI‑Systems bereitgestellt werden. Es besteht keine Garantie für feste Fertigstellungstermine, da Trainingsprozesse von Datenmenge, Modellkomplexität, Hardwareauslastung sowie externen Faktoren abhängig sind. Der Anbieter übernimmt keine Haftung für Verzögerungen, die durch technische Limitierungen, notwendige Optimierungen, unerwartete Trainingsverläufe oder externe Einflüsse entstehen.
+On‑Premise Server‑Optimierung (durch IT‑Abteilung des Auftraggebers): 
+Die technische Optimierung des lokalen Servers (On‑Premise) erfolgt ausschließlich durch die IT‑Techniker des Auftraggebers, oder durch vom Auftraggeber beauftragte externe Fachkräfte. Der Anbieter Z9D•QAI stellt lediglich die technischen Anforderungen, Empfehlungen und Konfigurationsrichtlinien bereit, die für einen stabilen und performanten Betrieb des Systems notwendig sind. Der Anbieter führt keine Vor‑Ort‑Arbeiten durch und übernimmt keine Verantwortung für die Umsetzung, Ausführung oder Qualität der Arbeiten der IT‑Abteilung des Auftraggebers. Für die Ausführung, Qualität oder Fehler der implementierten Maßnahmen übernimmt der Anbieter Z9D•QAI keine Haftung. Haftungsausschluss (Server‑Optimierung): Für fehlerhafte Implementierungen, falsche Konfigurationen oder unzureichende technische Maßnahmen der IT‑Abteilung des Auftraggebers übernimmt der Anbieter Z9D•QAI keine Haftung. 
+Hinweis zu Kosten, Lizenzen & steuerlicher Behandlung (Haftungsausschluss): 
+Die Kosten für die öffentliche Bereitstellung der Z9D•QAI Software, KI‑Module, Lizenzen und Subventionen sind als Leistungen aus privater Entwicklungs‑, Forschungs‑, Ingenieurs‑ und Architekturarbeit in einer experimentellen Umgebung zu betrachten. Es handelt sich nicht um serienreife Massenprodukte, sondern um individuelle, projektbezogene Entwicklungsleistungen. Die ausgewiesenen Beträge unterliegen daher der gesetzlichen Umsatzsteuer und sind als staatliche Abgabe gemäß den geltenden steuerrechtlichen Vorschriften zu behandeln. Eine Produktgarantie im Sinne fertiger Handelsware besteht nicht.
+****************************************************************************************
