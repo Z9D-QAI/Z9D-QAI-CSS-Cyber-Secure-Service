@@ -2,7 +2,7 @@
 Z9D CSS Cyber-Secure-Service 5.0 Free Edition
 *****************************************************************************************
 # 📘 README – Z9D•QAI Cyber Secure Service (CSS)  
-*** Versionen: 5.1 / 5.2 / 6.0 ***  
+*** Versionen: 5.0 / 5.1 / 5.2 / 6.0 ***  
 *** Autor: Z9D / Zoran Ljubić *** 
 *** Plattform: Windows 10 / 11 ** 
 ***** Typ: Lokales Z9D•QAI-Security‑Monitoring&Threat‑Analysis‑System *****
@@ -21,6 +21,55 @@ Es analysiert in Echtzeit:
 CSS arbeitet **komplett lokal**, ohne Cloud, ohne Telemetrie und ohne Installation.  
 Es kann verdächtige Prozesse erkennen, Netzwerkangriffe sichtbar machen und IP‑Adressen blockieren.
 
+Was Z9D‑CSS 5.0 Free Edition automatisch macht;
+
+✔ 1. Automatische Warnung an Windows Defender
+Wenn Z9D‑CSS ungewöhnliche Muster sieht wie:
+
+- verdächtige Prozesse
+- ungewöhnliche Ports
+- aggressive Verbindungen
+- viele CLOSE_WAIT / TIME_WAIT
+- Verbindungen zu bekannten Cloud‑Angreifer‑Netzen
+- Owner‑Mismatch (z. B. Chrome → AWS)
+- verdächtige EXE‑Namen
+-*- Dann sendet die Free Edition:
+→ eine Warnung an Defender (über EventLog / SecurityCenter API)
+Das bedeutet:
+Defender wird aufmerksam
+Defender scannt den Prozess
+Defender erhöht die Überwachung
+Defender blockiert, wenn es wirklich Malware ist
+Free Edition blockiert NICHT selbst – aber Defender wird aktiv.
+
+2. Automatische Warnung an die Firewall (passiv)
+Auch in der Free Edition:
+Z9D‑CSS schreibt verdächtige IPs in das Windows‑EventLog
+Die Firewall liest diese Events (Standard‑Windows‑Mechanismus)
+Die Firewall kann darauf reagieren, wenn Defender es bestätigt
+Das ist passiv, aber effektiv.
+
+✔ Firewall wird informiert
+✔ Defender wird informiert
+❌ aber Z9D‑CSS blockiert NICHT selbst
+🟥 Was NICHT passiert in 5.0 Free Edition
+❌ Keine Auto‑Block‑Regeln
+❌ Keine KI‑Analyse
+❌ Keine Engine‑Reaktionen
+❌ Keine Prozess‑Beendigung
+❌ Keine Port‑Schließung
+❌ Keine IP‑Sperren
+Das kommt erst ab:
+5.1 Elite Edition
+5.2 Pro Edition
+6.0 KI Elite Edition
+Dort:
+KI bewertet Risiko
+Engine setzt Firewall‑Regeln
+Auto‑Block sperrt IPs
+Prozesse werden beendet
+Ports werden geschlossen
+**************************************************************************
 🔹 2. Funktionsumfang (alle Versionen)
 
 Alle Versionen enthalten:
