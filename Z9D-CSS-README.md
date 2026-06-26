@@ -1,6 +1,6 @@
 # Z9D-QAI-CSS-Cyber-Secure-Service
 # Z9D•QAI-CSS-Cyber-Secure-Service
-# Z9D.QAII-CSS-Cyber-Secure-Service
+# Z9D.QAI-CSS-Cyber-Secure-Service
 Z9D CSS Cyber-Secure-Service 5.0 Free Edition
 *****************************************************************************************
 # 📘 README – Z9D•QAI Cyber Secure Service (CSS)  
