@@ -69,7 +69,40 @@ Engine setzt Firewall‑Regeln
 Auto‑Block sperrt IPs
 Prozesse werden beendet
 Ports werden geschlossen
-**************************************************************************
+
+🔹 1.1 Funktionen: 
+Free Version: Leicht, ohne KI, ohne Auto-Block, Warnt Defender/Firewall und zeigt 
+gefährliche IPs nach längerer Prüfung rot an. 
+Z9D-CSS-v5.0-FREE.exe nach Download auf den Desktop ziehen.
+Start per 2-Klick-Exe. 
+🔹 1.2 Visueller Gefahrenbalken:
+Das Tool verfügt an der Oberseite über eine Indikatot-Leiste. 
+Tritt eine System-Anomalie auf - etwa durch ungewöhnliche Hintergrundaktivitäten -,
+steigt dieser Balken sofort an und schlägt visuell Alarm.
+🔹 1.3Erkennung von Elite-Bedrohungen:
+Z9D-CSS v5.0 schlägt gezielt an, wenn Angriffe im Stil von Professionellen Hackern
+oder Einschläusungen aus Darknet-Quellen stattfingden.
+🔹 1.4 Manuelle Blockade:
+Der Nutzer bleibt der Chef auf seinem System.
+Sobald eine Anomalie oder eine verdächtige Verbindung im Dashboard aufläuchtet,
+kann diese mit einem Klick manuellblockiert und die Gefahr sofort gebannt werden.
+🔹 1.5 Schutz ohne Bevormundung:
+Das System schützt sich selbst, aber überlässt dem Nutzer die finale Entscheidungsgewalt
+über die Netzwerk- und prozessregeln.
+🔹 1.6 Der starke Basis-Schutz:
+Optimal für den Alltag gegen herkömmliche Hacker und Systemanomalien.
+Sie verzichtet bewusst auf KI-Anbindung und Auto-Block, bleibt dadurch extrem 
+leichtgewichtig, schützt aber hocheffektiv über zwei Kernmechanismen:
+🔹 Interne Alarmierung:
+Das Tool warnt bei Entdeckungen sofort im Hintergrund den Windows 
+Defender und die Windows-Firewall.
+🔹 Rote IP-Erkennung:
+Bleibt Eine verdächtige Verbindung bei der Prüfung länger aktiv, 
+läuchtet die betroffene IP-Adresse im Tool rot auf, 
+sodass der Nutzer sie sofort manuell blockieren kann.
+🔹 Version 5.0 Free Edition: Arbeitet absolut diskret ohne Beep- Ton und ohne Popup-Warnfenster 
+- ideal für ungestörtes Arbeiten.
+*************************************************************************************************
 🔹 2. Funktionsumfang (alle Versionen)
 
 Alle Versionen enthalten:
@@ -113,7 +146,8 @@ Alle Versionen enthalten:
 🔹 4. Installation:
 
 CSS benötigt **keine Installation**.  
-Es kann direkt ausgeführt werden.
+Es kann direkt im Desktop ausgeführt werden.
+"Download exe, double.click, run - no installation needed".
 
 Optional kann ein Installer‑Script verwendet werden, das:
 
@@ -172,11 +206,28 @@ Je nach Version können folgende Dateien enthalten sein:
 - Firewall‑Regeln werden nur gesetzt, wenn der Benutzer es auslöst oder Auto‑Block aktiv ist.  
 - CSS ersetzt kein professionelles EDR‑System, bietet aber starke lokale Heuristik.
 
-🔹 **9. Support / Kontakt**
-
+🔹 9. Support / Kontakt:
 Für Fragen, Erweiterungen oder neue Versionen:  
 "Z9D•QAI _ Dr.MaS.Zoran Ljubić - Hard/Bregenz Österreich - Doboj RS - Zaječar SRBIJA"
-e-mail: zoranljubic\gmx.net 
+Tik-Tok - Facebook - Instagram - nur Follower! 
+
+🔹 10. Das Z9D-CSS PRO-Lineup (v5.1 - 5.2 -v 6.0)
+🔹Gemeinsame Pro-Basis: 
+Alle Pro-Varianten laufen mit der leistungsstarken Z9D-Engine 
+und verfügen über eine vollwärtige KI-Anbindung.
+🔹Z9D_Engine KI-Flexibilität:
+Die Engine bietet mehrere flexible Anbindungsmöglichkeiten für verschiedene KI-Arten und
+Modellformate, darunter: KI Auswahl Popup-Warnfenster; Welche KI möchten Sie verwenden?
+🔹Keine KI (Z9D_Cyber Secure Service, nur Heuristik)
+🔹Python KI-API (HF/ONNX, Endpoint) - (ONNX-Optimiert für schnelle CPU/GPU-Ausführung / HF Hugging Face Transformer Modelle)
+🔹Lokale GGUF KI (Pfad auswählen) - (Ressourcenschonende, quantisierte Modelle für den lokalen Betrieb)
+🔹Z9D-Engine.exe (lokale KI ohne Python)
+
+🔹 Version 5.1 (Silent Pro): Arbeitet absolut diskret ohne Beep- Ton und ohne Popup-Warnfenster 
+- ideal für ungestörtes Arbeiten mit Auto-Block auch gegen Trojaner und Würmer.
+🔹 Version 5.2 (Alert Pro): Bietet maximale Aufmerksamkeit bei Gefahr durch
+sofortige Popup-Warnfensterund einen akustischen Beep-Warnton, mit Auto-Block auch gegen Trojaner und Würmer.
+🔹 Version 6.0 (High-End): Explizit gehärtet gegen Staatshacker, Trojaner und Würmer mit Auto-Block +KI-Anbindung.
 
 # ✔ **Diese README ist für alle Versionen identisch nutzbar.**
 ******************************************************************************************
