@@ -242,3 +242,5 @@ Die technische Optimierung des lokalen Servers (On‑Premise) erfolgt ausschlie�
 Hinweis zu Kosten, Lizenzen & steuerlicher Behandlung (Haftungsausschluss): 
 Die Kosten für die öffentliche Bereitstellung der Z9D•QAI Software, KI‑Module, Lizenzen und Subventionen sind als Leistungen aus privater Entwicklungs‑, Forschungs‑, Ingenieurs‑ und Architekturarbeit in einer experimentellen Umgebung zu betrachten. Es handelt sich nicht um serienreife Massenprodukte, sondern um individuelle, projektbezogene Entwicklungsleistungen. Die ausgewiesenen Beträge unterliegen daher der gesetzlichen Umsatzsteuer und sind als staatliche Abgabe gemäß den geltenden steuerrechtlichen Vorschriften zu behandeln. Eine Produktgarantie im Sinne fertiger Handelsware besteht nicht.
 ****************************************************************************************
+## 📥 Download Z9D-CSS v5.0 FREE
+[Hier herunterladen](https://github.com/Z9D-QAI/Z9D-QAI-CSS-Cyber-Secure-Service/blob/main/Z9D-CSS-v5.0-FREE.exe)
