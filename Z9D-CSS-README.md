@@ -4,8 +4,8 @@
 Z9D CSS Cyber-Secure-Service 5.0 Free Edition
 *****************************************************************************************
 # 📘 README – Z9D•QAI Cyber Secure Service (CSS)  
-*** Versionen: 5.0 / 5.1 / 5.2 / 6.0 ***  
-*** Autor: Z9D / Zoran Ljubić *** 
+*** Versionen: 5.0-FREE Edition - 5.0-BLOCK-IP - 5.0-AUTO-BLOCK - 5.0-USB / 5.1 / 5.2 / 6.0 ***  
+*** Autor: Z9D / Zoran Zoky Ljubić *** 
 *** Plattform: Windows 10 / 11 ** 
 ***** Typ: Lokales Z9D•QAI-Security‑Monitoring&Threat‑Analysis‑System *****
 
@@ -232,6 +232,24 @@ sofortige Popup-Warnfensterund einen akustischen Beep-Warnton, mit Auto-Block au
 🔹 Version 6.0 (High-End): Explizit gehärtet gegen Staatshacker, Trojaner und Würmer mit Auto-Block +KI-Anbindung.
 
 # ✔ **Diese README ist für alle Versionen identisch nutzbar.**
+******************************************************************************************
+!!! Hinweis zur W-LAN-Initialisierung - Laptop-Betrieb - BEDROHUNGSGRAD-BALKEN !!!
+
+Bei der Verwendung von Z9D‑CSS auf Laptops kann es vorkommen, dass der 
+Bedrohungsgrad-Balken nicht angezeigt wird, wenn das Programm gestartet wird, 
+während das WLAN bereits aktiv ist.
+
+Technischer Hintergrund:
+Windows initialisiert WLAN-Adapter in mehreren Phasen (Authentifizierung, DHCP, Routing). 
+Wenn Z9D‑CSS während dieser Phase gestartet wird, erhält das Programm keine stabilen 
+Netzwerkdaten. In diesem Fall wird das Bedrohungsgrad-Modul nicht geladen.
+
+Lösung:
+Z9D‑CSS zuerst starten und erst danach das WLAN aktivieren.  
+Dadurch erhält das Programm einen klaren Startzustand und der Bedrohungsgrad-Balken 
+wird korrekt angezeigt.
+
+Auf Desktop-PCs mit LAN-Verbindung tritt dieses Verhalten nicht auf.
 ******************************************************************************************
 📌    Haftungsausschluss / Keine Garantie oder Gewährleistungen: 
 Der Anbieter Z9D•QAI übernimmt keine Garantie oder Gewährleistung für Schäden, Fehlfunktionen oder Beeinträchtigungen, auch die durch Hackerangriffe, Schadsoftware, unerwünschte Software, externe Entwickler, Manipulationen oder sonstige Eingriffe Dritter entstehen. Der Auftragsgeber ist verantwortlich für die Sicherheit seiner eigenen IT‑Infrastruktur, einschließlich Betriebssystem, Netzwerk, Benutzerkonten und physischem Zugriff. Der Anbieter Z9D•QAI haftet nicht für bestehende und neue oder zukünftige Angriffsmethoden, Softwareentwicklungen oder Sicherheitslücken, die außerhalb seines Einflussbereichs liegen.
