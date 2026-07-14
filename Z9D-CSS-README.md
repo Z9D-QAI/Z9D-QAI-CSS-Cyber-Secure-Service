@@ -4,6 +4,7 @@
 Z9D CSS Cyber-Secure-Service 5.0 Free Edition
 *****************************************************************************************
 # 📘 README – Z9D•QAI Cyber Secure Service (CSS)  
+
 *** Versionen: 5.0-FREE Edition - 5.0-BLOCK-IP - 5.0-AUTO-BLOCK - 5.0-USB / 5.1 / 5.2 / 6.0 ***  
 *** Autor: Z9D / Zoran Zoky Ljubić *** 
 *** Plattform: Windows 10 / 11 ** 
@@ -11,18 +12,124 @@ Z9D CSS Cyber-Secure-Service 5.0 Free Edition
 
 🔹 1. Überblick
 
-Der **Z9D•QAI Cyber Secure Service (CSS)** ist ein lokales Sicherheits‑ und Überwachungssystem für Windows.  
-Es analysiert in Echtzeit:
-
-- laufende Prozesse  
-- Netzwerkverbindungen  
-- Systemereignisse  
-- Defender‑Status  
-- (ab Version 6.0) Updates, Treiber, Netzwerk‑Umgebung  
+Der Z9D•QAI Cyber Secure Service (CSS) ist ein lokales Sicherheits‑ und Überwachungssystem für Windows.
+Es arbeitet vollständig offline, ohne Cloud, ohne Telemetrie und ohne Installation.
+CSS analysiert:
+laufende Prozesse
+Netzwerkverbindungen
+Systemereignisse
+Remote‑IP‑Eigentümer
+Bedrohungsgrad
+(ab Version 6.0) Router‑/ARP‑/MITM‑Sensoren, Firmware‑Heuristik, Zero‑Day‑Analyse
 
 CSS arbeitet **komplett lokal**, ohne Cloud, ohne Telemetrie und ohne Installation.  
 Es kann verdächtige Prozesse erkennen, Netzwerkangriffe sichtbar machen und IP‑Adressen blockieren.
 
+🔹 1.0 Öffentliche Version: AB365 (Finale Version)
+(NEU: ersetzt die alten 5.x‑Versionen als öffentliches Produkt)
+AB365 ist die einzige öffentlich verfügbare Version.
+Sie enthält alle früheren Auto‑Block‑Modi:
+BL25 – 30 Tage
+AB35_35 – 35 Tage
+AB35_185 – 185 Tage
+AB35_365 – 365 Tage
+AB365 – Varianten (NEU):
+
+| Version | KI | Auto‑Block | USB | Beschreibung |
+| --- | --- | --- | --- | --- |
+| **AB365‑PRO** | ❌ | ✔ | ❌ | Standard‑Version ohne KI |
+| **AB365‑USB** | ❌ | ✔ | ✔ | USB‑Lizenz ohne KI |
+| **AB365‑USB‑KI** | ✔ | ✔ | ✔ | USB‑Lizenz mit KI‑Anbindung |
+Damit ist klar:
+👉 Z9D-CSS-AB365 kommt in 3 Versionen – ohne KI, USB ohne KI, USB mit KI.
+
+🔹 1.1 Legacy-Versionen (nur historische Dokumentation)
+Diese Versionen wurden nicht hochgeladen und sind nicht öffentlich verfügbar:
+v5.0 – ohne KI, ohne Auto‑Block
+Basisversion, Defender/Firewall‑Alarm, manuelle Blockade.
+v5.1 – KI ohne Auto‑Block
+KI‑Analyse, aber keine automatische Reaktion.
+v5.2 – KI + Auto‑Block
+KI bewertet, Engine reagiert, Auto‑Block sperrt IPs/Ports/Prozesse.
+
+🔹 1.2 Kommende Profi-Version: v6.0 (Industrie/Regierung)
+(NEU: mit korrekter Aufteilung)
+
+Die Version 6.0 ist für:
+Industrie
+kritische Infrastruktur
+Behörden
+Regierungs‑Netzwerke
+militärische IT‑Sicherheitsstellen
+v6.0 – Sensoren:
+Router‑Sensor
+ARP‑Sensor
+MITM‑Sensor
+Firmware‑/Treiber‑Heuristik
+Zero‑Day‑Verhaltensanalyse
+Supply‑Chain‑Analyse
+ThreatScore 2.0
+Auto‑Block 2.0
+Modernisierte UI
+Stabilisator‑Timer
+
+v6.0 – Varianten (NEU):
+| Version | KI | Auto‑Block | USB | Beschreibung |
+| --- | --- | --- | --- | --- |
+| **v6.0‑AB PRO** | ❌ | ✔ | ❌ | Industrie/Behörden ohne KI |
+| **v6.0‑KI PRO** | ✔ | ✔ | ❌ | High‑End‑Analyse mit KI |
+| **v6.0‑USB** | ❌ | ✔ | ✔ | USB‑Lizenz ohne KI |
+| **v6.0‑USB‑KI** | ✔ | ✔ | ✔ | USB‑Lizenz mit KI (Regierung/Industrie) |
+Damit ist klar:
+👉 v6.0 hat ebenfalls 3 USB‑Varianten – ohne KI, mit KI.
+
+*****************************************************************************************************
+
+Kurzfassung der Änderungen
+Z9D-CSS-v5.0-AB365 kommt in 3 Versionen:
+✔ PRO (ohne KI) 
+✔ USB (ohne KI) - für Server/PC pro Standort-VPN für Netzwerk viele PC´s und Laptops
+✔ USB‑KI (mit KI) - für Server/PC pro Standort-VPN für Netzwerk viele PC´s und Laptops
+---------------------------
+Z9D-CSS-v6.0 kommt in 4 Versionen:
+✔ AB PRO (ohne KI)
+✔ KI PRO (mit KI)
+✔ USB (ohne KI) - für Server/PC pro Standort-VPN für Netzwerk viele PC´s und Laptops
+✔ USB‑KI (mit KI) - für Server/PC pro Standort-VPN für Netzwerk viele PC´s und Laptops
+
+*****************************************************************************************************
+
+🔹 Zusatz: Laptop‑Hotspot‑Schutz (Firewall‑Gateway‑Modus)
+
+Bei Verwendung von Z9D‑CSS auf einem Laptop mit aktiviertem Hotspot übernimmt CSS automatisch die Rolle eines lokalen Sicherheits‑Gateways.
+Alle Geräte, die sich mit dem Hotspot verbinden – z. B.:
+
+Smartphones
+Tablets
+Smart‑TVs
+IoT‑Geräte
+andere Laptops
+laufen durch die Windows‑Firewall und die CSS‑Überwachung des Host‑Laptops.
+
+Dadurch entsteht ein einzigartiger Schutzmechanismus:
+Alle Verbindungen der Hotspot‑Clients werden sichtbar
+
+Remote‑IPs werden analysiert und klassifiziert
+Auto‑Block kann gefährliche Verbindungen sofort sperren
+Manuelle Blockierung schützt alle verbundenen Geräte gleichzeitig
+Bedrohungen, die auf dem Handy nicht erkannt werden, werden am Laptop erkannt
+CSS wirkt wie ein Mini‑Firewall‑Router für alle Geräte hinter dem Hotspot
+
+Vorteile:
+Schutz für Geräte, die keine eigene Firewall haben
+Schutz für Geräte, die keine Sicherheitssoftware besitzen
+Schutz für Geräte, die verwundbar oder veraltet sind
+Perfekt für Reisen, Hotels, öffentliche WLANs, mobile Arbeitsplätze
+
+Hinweis:
+Damit alle Netzwerkdaten korrekt initialisiert werden, sollte CSS vor dem Aktivieren des WLAN‑Hotspots gestartet werden.
+
+*****************************************************************************************************
 Was Z9D‑CSS 5.0 Free Edition automatisch macht;
 
 ✔ 1. Automatische Warnung an Windows Defender
