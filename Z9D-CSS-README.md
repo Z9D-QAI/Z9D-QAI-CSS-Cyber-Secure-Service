@@ -5,8 +5,8 @@ Z9D CSS Cyber-Secure-Service 5.0 Free Edition
 *****************************************************************************************
 # 📘 README – Z9D•QAI Cyber Secure Service (CSS)  
 
-*** Versionen: 5.0-FREE Edition - AB365‑PRO - AB365‑USB - AB365‑USB‑KI ***
-*** Regierung&Industrie-Versionen: v6.0‑AB PRO - v6.0‑KI PRO - v6.0‑USB - v6.0‑USB‑KI ***  
+*** Versionen: 5.0-FREE Edition - AB365‑PRO - AB365‑USB - AB365‑USB‑KI *** 
+*** Regierung&Industrie-Versionen: v6.0‑AB PRO - v6.0‑KI PRO - v6.0‑USB - v6.0‑USB‑KI *** 
 *** Autor: Z9D / Zoran Zoky Ljubić *** 
 *** Plattform: Windows 10 / 11 ** 
 ***** Typ: Lokales Z9D•QAI-Security‑Monitoring&Threat‑Analysis‑System *****
