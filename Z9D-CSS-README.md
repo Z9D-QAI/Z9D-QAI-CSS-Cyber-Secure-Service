@@ -370,7 +370,7 @@ Die Kosten für die öffentliche Bereitstellung der Z9D•QAI Software, KI‑Mod
 # Z9D-CSS-v5.0 Vollversion ohne KI-Anbindung PRO 
 # Z9D-QAI Cyber Secure Service (CSS) v5.0 Vollversion PRO ohne KI-Anbindung 
 Hier finden Sie den dffiziellen und sicheren Download für das Sicherheits-Hilfsprogramm. 
-## 📥 Download Z9D-CSS v5.0 VOLLVERSION ohne KI-ANbindung 
+## 📥 Download Z9D-CSS v5.0 VOLLVERSION ohne KI-Anbindung 
 [Z9D-CSS-v5.0 Edition herunterladen](https://github.com/Z9D-QAI/Z9D-CSS-Cyber-Secure-Service/blob/main/Z9D-CSS-v5.0.exe)
 
 -------------------------------------------------------------------------------------------------------------------
