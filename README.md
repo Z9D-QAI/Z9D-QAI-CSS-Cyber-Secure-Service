@@ -1,5 +1,12 @@
 *** Versionen: 5.0-FREE Edition - v5.0 Edition Vollversion - ohne KI *** *** Regierung&Industrie-Versionen: v6.0‑AB PRO - v6.0‑KI PRO - v6.0‑USB - v6.0‑USB‑KI *** *** Autor: Z9D / Dr.MaS.Zoran Zoky Ljubić *** *** Plattform: Windows 10 / 11 ** ***** Typ: Lokales Z9D•QAI-Security‑Monitoring&Threat‑Analysis‑System *****
 
+# Hinweis / Entschuldigung
+> Wir entschuldigen uns für die vorherige fehlerhafte ZIP-Version von Z9D-CSS-v5.3-PRO-SRS-EXE.
+> In der älteren Bereitstellung war ein Fehler im SRS Auto / AI-Bereich enthalten.
+> Die Datei wurde inzwischen korrigiert und neu fehlerfrei bereitgestellt.
+> Wichtige Anweisung
+> Bitte die alte ZIP-Datei und die bisherige EXE vollständig löschen und die aktuelle korrigierte Version erneut herunterladen. Neuer Download: Z9D-CSS-v5.3-PRO-SRS-EXE.zip - Empfehlung - Nach dem Neudownload bitte nur noch die aktuelle ZIP-Version verwenden. Vielen Dank für Ihr Verständnis.
+
 🔹 1. Überblick
 
 Der Z9D•QAI Cyber Secure Service (CSS) ist ein lokales Sicherheits‑ und Überwachungssystem für Windows. Es arbeitet vollständig offline, ohne Cloud, ohne Telemetrie und ohne Installation. CSS analysiert: laufende Prozesse Netzwerkverbindungen Systemereignisse Remote‑IP‑Eigentümer Bedrohungsgrad (ab Version 6.0) Router‑/ARP‑/MITM‑Sensoren, Firmware‑Heuristik, Zero‑Day‑Analyse
