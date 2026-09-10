@@ -190,11 +190,11 @@ Erlaubt Analyse durch externe KI‑Modelle (optional) mit Z9D-Engine.
 
 🔹 7. Dateien im Paket; Je nach Version können folgende Dateien enthalten sein:
 
-z9d_cyber_secure_service_vX_X_css.ps1 → Hauptprogramm
+z9d_cyber_secure_service_vX_X_css → Hauptprogramm
 Z9D_logo.ico → Icon für Verknüpfungen
 Z9D_Engine.exe → KI‑Engine (nur v6.0)optional
 README.txt → Diese Datei
-Installer.ps1 → Optionaler Installer
+Installer → Optionaler Installer
 🔹 8. Sicherheitshinweise
 
 CSS arbeitet lokal und verändert keine Systemdateien.
