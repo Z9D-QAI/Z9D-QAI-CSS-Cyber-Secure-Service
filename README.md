@@ -63,7 +63,50 @@ Automatische Warnung an die Firewall (passiv) Auch in der Free Edition: Z9D‑CS
 ✔ Firewall wird informiert ✔ Defender wird informiert ❌ aber Z9D‑CSS blockiert NICHT selbst 🟥 Was NICHT passiert in 5.0 Free Edition ❌ Keine Auto‑Block‑Regeln ❌ Keine KI‑Analyse ❌ Keine Engine‑Reaktionen ❌ Keine Prozess‑Beendigung ❌ Keine Port‑Schließung ❌ Keine IP‑Sperren Das kommt erst ab: 5.1 Elite Edition 5.2 Pro Edition 6.0 KI Elite Edition Dort: KI bewertet Risiko Engine setzt Firewall‑Regeln Auto‑Block sperrt IPs Prozesse werden beendet Ports werden geschlossen
 
 🔹 1.1 Funktionen: Free Version: Leicht, ohne KI, ohne Auto-Block, Warnt Defender/Firewall und zeigt gefährliche IPs nach längerer Prüfung rot an. Z9D-CSS-v5.0-FREE.exe nach Download auf den Desktop ziehen. Start per 2-Klick-Exe. 🔹 1.2 Visueller Gefahrenbalken: Das Tool verfügt an der Oberseite über eine Indikatot-Leiste. Tritt eine System-Anomalie auf - etwa durch ungewöhnliche Hintergrundaktivitäten -, steigt dieser Balken sofort an und schlägt visuell Alarm. 🔹 1.3Erkennung von Elite-Bedrohungen: Z9D-CSS v5.0 schlägt gezielt an, wenn Angriffe im Stil von Professionellen Hackern oder Einschläusungen aus Darknet-Quellen stattfingden. 🔹 1.4 Manuelle Blockade: Der Nutzer bleibt der Chef auf seinem System. Sobald eine Anomalie oder eine verdächtige Verbindung im Dashboard aufläuchtet, kann diese sehen und mit Logs-Daten auslesen, die Gefahr kann anschließend manuell gebannt werden. 🔹 1.5 Schutz ohne Bevormundung: Das System schützt sich selbst, aber überlässt dem Nutzer die finale Entscheidungsgewalt über die Netzwerk- und prozessregeln. 🔹 1.6 Der starke Basis-Schutz: Optimal für den Alltag gegen herkömmliche Hacker und Systemanomalien. Sie verzichtet bewusst auf KI-Anbindung und Auto-Block, bleibt dadurch extrem leichtgewichtig, schützt aber hocheffektiv über zwei Kernmechanismen: 🔹 Interne Alarmierung: Das Tool warnt bei Entdeckungen sofort im Hintergrund den Windows Defender und die Windows-Firewall. 🔹 Rote IP-Erkennung: Bleibt Eine verdächtige Verbindung bei der Prüfung länger aktiv, läuchtet die betroffene IP-Adresse im Tool rot auf, sodass der Nutzer sie sofort manuell blockieren kann. 🔹 Version 5.0 Free Edition: Arbeitet absolut diskret ohne Beep- Ton und ohne Popup-Warnfenster.
-Der Button (Logs anzeigen) zeigt alle relevanten Daten an, und speichert diese Datei in ihrem PC unter C:\ProgramData\CSS\css_log_v5_z9d.json. 
+
+**Kill Process** und **Logs anzeigen** sauber erklärt.
+# 🔧 **Systemfunktionen – Prozesskontrolle & Log‑Anzeige (alle Versionen)**
+
+## 🟥 **Kill Process**
+Der Button **„Kill Process“** beendet einen ausgewählten laufenden Prozess **oder** eine ausgewählte Netzwerk‑IP‑Verbindung.
+
+### ⚠️ **Wichtiger Hinweis**
+Beenden Sie **keine systemkritischen Prozesse**, keine **Betriebssoftware‑eigenen Dienste** und keine **internen Hintergrundprozesse von Programmen oder Apps**.  
+Das unerwünschte Stoppen solcher Prozesse kann zu:
+- Instabilität des Systems  
+- Abstürzen von Programmen  
+- Datenverlust  
+- Netzwerkunterbrechungen  
+führen.
+
+Der Button ist ausschließlich für:
+- verdächtige Prozesse  
+- nicht reagierende Programme  
+- unerwünschte Netzwerkverbindungen  
+- manuelle Sicherheitsmaßnahmen  
+gedacht.
+
+## 📄 **Logs anzeigen**
+Der Button **„Logs anzeigen“** öffnet die vollständige Protokolldatei des Systems und zeigt alle relevanten Ereignisse, Analysen und Statusmeldungen an.
+
+### 📁 **Speicherort der Logdatei**
+Die Logdatei wird automatisch gespeichert unter:
+C:\ProgramData\CSS\(css_log_v5_z9d.json) - Dateiname ist versionsabhängig!
+
+### 📌 Inhalt der Logdatei
+Die Datei enthält:
+- Zeitstempel  
+- Prozess‑ und Netzwerkereignisse  
+- Analyseergebnisse  
+- Warnungen und Blockierungen  
+- KI‑Modus‑Status (falls vorhanden)  
+- Systementscheidungen  
+
+Die Logs dienen zur:
+- Fehleranalyse  
+- Sicherheitsbewertung  
+- Nachvollziehbarkeit von Aktionen  
+- Dokumentation von Vorfällen  
 
 ideal für ungestörtes Arbeiten.
 🔹 2. Funktionsumfang (alle Versionen)
@@ -81,17 +124,16 @@ KI‑Router (Python, GGUF, Z9D‑Engine oder manuell)
 Z9D‑Icon‑Unterstützung (bei Verknüpfungen)
 🔹 3. Unterschiede der Versionen
 
-"Version 5.1"
+"Version 5.0 Pro"
 Stabile Basisversion
 Ruhiger ThreatScore
 Keine Popups, keine akustischen Warnungen
 Ideal für Präsentationen und Low‑Noise‑Monitoring
-"Version 5.2"
 Erweiterte Netzwerk‑Owner‑Erkennung
 Popup‑Warnungen + akustische Signale
 Sensiblere ThreatScore‑Logik
 Verbesserte UI‑Rückmeldungen
-"Version 6.0"
+"Version 6.0 Pro_Elite"
 Erweiterte Sicherheitsmodule:
 Router‑/ARP‑/MITM‑Erkennung
 Update‑Analyse (Supply‑Chain‑Angriffe)
@@ -118,7 +160,7 @@ Direktstart:
 Doppelklick auf die Datei:
 
 z9d_cyber_secure_service_vX_X_css.ps1
-oder (Ihre Version 5.1 - 5.2 - 6.0 direkte Datei-Ausführung - in eigenen Ordner kopieren)
+oder (Ihre Version 5.0 - 6.0 direkte Datei-Ausführung - in eigenen Ordner kopieren)
 
 Falls PowerShell blockiert:
 
@@ -165,8 +207,14 @@ CSS ersetzt kein professionelles EDR‑System, bietet aber starke lokale Heurist
 🔹 10. Das Z9D-CSS PRO-Lineup (v5.1 - 5.2 -v 6.0) 🔹Gemeinsame Pro-Basis: Alle Pro-Varianten laufen mit der leistungsstarken Z9D-Engine und verfügen über eine vollwärtige KI-Anbindung. 🔹Z9D_Engine KI-Flexibilität: Die Engine bietet mehrere flexible Anbindungsmöglichkeiten für verschiedene KI-Arten und Modellformate, darunter: KI Auswahl Popup-Warnfenster; Welche KI möchten Sie verwenden? 🔹Keine KI (Z9D_Cyber Secure Service, nur Heuristik) 🔹Python KI-API (HF/ONNX, Endpoint) - (ONNX-Optimiert für schnelle CPU/GPU-Ausführung / HF Hugging Face Transformer Modelle) 🔹Lokale GGUF KI (Pfad auswählen) - (Ressourcenschonende, quantisierte Modelle für den lokalen Betrieb) 🔹Z9D-Engine.exe (lokale KI ohne Python)
 
 🔹 Version 5.1 (Silent Pro): Arbeitet absolut diskret ohne Beep- Ton und ohne Popup-Warnfenster
-
-ideal für ungestörtes Arbeiten mit Auto-Block auch gegen Trojaner und Würmer. 🔹 Version 5.2 (Alert Pro): Bietet maximale Aufmerksamkeit bei Gefahr durch sofortige Popup-Warnfensterund einen akustischen Beep-Warnton, mit Auto-Block auch gegen Trojaner und Würmer. 🔹 Version 6.0 (High-End): Explizit gehärtet gegen Staatshacker, Trojaner und Würmer mit Auto-Block +KI-Anbindung.
+ideal für ungestörtes Arbeiten mit Auto-Block auch gegen Trojaner und Würmer. 🔹 Version 5.2 (Alert Pro): Bietet maximale Aufmerksamkeit bei Gefahr durch sofortige Popup-Warnfensterund einen akustischen Beep-Warnton, mit Auto-Block auch gegen Trojaner und Würmer. 🔹 Version 6.0 (High-End): Explizit gehärtet gegen Staatshacker, Trojaner und Würmer mit Auto-Block +KI-Anbindung. 
+🔷 CSS Version 5.0 PRO FULL – Funktionsumfang
+Die CSS v5.0 PRO FULL enthält den gesamten Funktionsumfang der Vorgängerversionen v5.1 und v5.2.
+Alle Module, Schutzfunktionen, UI‑Elemente, Analyse‑Routinen und Systemkomponenten der früheren Versionen sind vollständig integriert und erweitert.
+✔ Enthält alle Features aus CSS v5.1
+✔ Enthält alle Features aus CSS v5.2
+✔ Zusätzlich optimiert, zusammengeführt und stabilisiert
+Damit ist CSS v5.0 PRO FULL die kompletteste und umfangreichste PRO‑Version der gesamten 5.x‑Reihe.
 ✔ Diese README ist für alle Versionen identisch nutzbar.
 !!! Hinweis zur W-LAN-Initialisierung - Laptop-Betrieb - BEDROHUNGSGRAD-BALKEN !!!
 
