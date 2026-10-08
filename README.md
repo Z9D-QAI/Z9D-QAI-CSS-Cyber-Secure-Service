@@ -1,6 +1,7 @@
 *** Versionen: 5.0-FREE Edition - v5.0 Edition Vollversion - ohne KI *** *** Regierung&Industrie-Versionen: v6.0‑AB PRO - v6.0‑KI PRO - v6.0‑USB - v6.0‑USB‑KI *** *** Autor: Z9D / Dr.MaS.Zoran Zoky Ljubić *** *** Plattform: Windows 10 / 11 ** ***** Typ: Lokales Z9D•QAI-Security‑Monitoring&Threat‑Analysis‑System *****
-
-*********************************************************************************
+**********************************************************
+Offizielle Webseite: https://z9d-qai.com/
+**********************************************************
 # Hinweis / Entschuldigung
 > Wir entschuldigen uns für die vorherigen fehlerhaften ZIP-Versionen von Z9D-CSS-v5.3-PRO-SRS-EXE und Z9D-CSS-v6.0-PRO_Elite-EXE. In älteren Bereitstellungen waren Fehler im Bereich der EXE-Ausführung und internen if-Abläufe enthalten. Diese Dateien wurden inzwischen korrigiert, neu erstellt und fehlerbereinigt erneut bereitgestellt. Wichtige Anweisung: Bitte die alten ZIP-Dateien und bereits vorhandenen EXE-Versionen vollständig löschen und anschließend nur die neu bereitgestellten korrigierten Versionen erneut herunterladen und verwenden. Empfehlung: Nach dem Neudownload bitte ausschließlich mit den aktuellen ZIP-Versionen arbeiten. Vielen Dank für Ihr Verständnis.
 *********************************************************************************
