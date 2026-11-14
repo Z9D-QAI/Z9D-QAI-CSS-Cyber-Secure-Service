@@ -3323,3 +3323,6 @@ Haftungsausschluss / Keine Garantie oder Gewährleistungen: Der Anbieter Z9D•Q
 
 Hinweis: Jede Zahlung gilt als freiwillige Spende zur Unterstützung der Weiterentwicklung der Z9D-CSS Sicherheitssoftware und Z9D•QAI QAGI/AGI/AI Entwicklungsumgebung u. Hardwareressourcen.
 
+### © Lizenz & Urheberrecht
+**© 2026 Dr.MaS Zoran Ljubic – Z9D-QAI / Matrixworld.at. Alle Rechte vorbehalten (All Rights Reserved).**  
+Details zur exklusiven Nutzung und zum Schutz des geistigen Eigentums finden sich in der Datei [`LICENSE`](https://github.com/Z9D-QAI/Matrixworld/blob/main/LICENSE).
